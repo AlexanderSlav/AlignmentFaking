@@ -210,8 +210,8 @@ def plot_statistics(results_df: pd.DataFrame):
 def main():
     tester = AlignmentTester()
 
-    results_cot = tester.run_experiment(n_samples=2, use_cot=True)
-    results_no_cot = tester.run_experiment(n_samples=2, use_cot=False)
+    results_cot = tester.run_experiment(n_samples=10, use_cot=True)
+    results_no_cot = tester.run_experiment(n_samples=10, use_cot=False)
 
     results = pd.concat([results_cot, results_no_cot])
 
