@@ -1,6 +1,6 @@
 # AI Alignment Testing Framework
 
-This project implements a testing framework to study alignment and compliance behaviors in AI models, inspired by research from ["On the Reliability of Chain-of-Thought Reasoning in Large Language Models"](https://arxiv.org/pdf/2412.14093).
+This project implements a testing framework to study alignment and compliance behaviors in AI models, based on ["On the Reliability of Chain-of-Thought Reasoning in Large Language Models"](https://arxiv.org/pdf/2412.14093).
 
 ## Overview
 
